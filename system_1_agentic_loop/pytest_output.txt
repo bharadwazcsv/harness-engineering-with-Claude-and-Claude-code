@@ -1,0 +1,8 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-7.4.3, pluggy-1.3.0
+rootdir: /workspace/Build a Claims Intake Agent with a stop_reason-Driven Loop/exercises/03-dynamic-decomposition/solution
+collected 30 items
+
+test_claims_loop.py ..............................                       [100%]
+
+============================== 30 passed in 12.45s ==============================

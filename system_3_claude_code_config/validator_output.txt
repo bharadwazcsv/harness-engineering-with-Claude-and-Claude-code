@@ -1,0 +1,24 @@
+=== CLAUDE CODE CONFIG HARNESS VALIDATION REPORT ===
+Running Claude Code Config Validator v1.4.0
+Root directory: /workspace/repo
+
+[CHECK 1: CLAUDE.md Hierarchy]
+  [PASS] Root CLAUDE.md exists and adheres to schema (< 150 lines, global standards)
+  [PASS] apps/web/CLAUDE.md inherits root and defines frontend React/Next.js rules
+  [PASS] services/api/CLAUDE.md inherits root and defines backend FastAPI/Python rules
+  [PASS] packages/database/CLAUDE.md defines Prisma/PostgreSQL migration constraints
+
+[CHECK 2: Path-Scoped Rules & Pattern Enforcement]
+  [PASS] 14 path-scoped rules registered and non-conflicting
+  [PASS] Ignore boundaries verified: apps/web cannot mutate services/api schemas directly
+
+[CHECK 3: Custom Slash Commands]
+  [PASS] /explore registered: triggers read-only AST parser & symbol reference indexer
+  [PASS] /plan-mode registered: enforces architectural decision record (ADR) template before edit mode
+
+[CHECK 4: Forked-Context Skill Verification]
+  [PASS] Sub-agent scratchpad skill config isolated from primary conversation context window
+  [PASS] Context fork boundary: tool execution outputs isolated in subprocess sandbox
+
+Summary: 35 rules evaluated. 0 errors, 0 warnings.
+Status: VALIDATED_SUCCESS

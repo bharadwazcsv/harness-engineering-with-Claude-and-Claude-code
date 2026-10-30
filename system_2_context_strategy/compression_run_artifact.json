@@ -1,0 +1,27 @@
+{
+  "benchmark_summary": {
+    "total_dialogue_turns": 46,
+    "raw_tokens_input": 14210,
+    "compressed_tokens_output": 5180,
+    "compression_ratio": "63.55% reduction",
+    "compression_target_met": true,
+    "target_threshold": "< 50.0% of original tokens"
+  },
+  "position_aware_distribution": {
+    "system_anchor_tokens": 820,
+    "compressed_history_summary_tokens": 1940,
+    "active_state_slots_tokens": 1120,
+    "recency_preserved_turns_tokens": 1300
+  },
+  "evaluation_accuracy": {
+    "total_questions": 15,
+    "correct_answers": 15,
+    "accuracy_pct": 100.0,
+    "preserved_key_facts": [
+      "SKU-44021 defective return authorization",
+      "Customer preferred refund via store credit",
+      "Expedited shipping waiver approved",
+      "Alternate delivery address verification"
+    ]
+  }
+}

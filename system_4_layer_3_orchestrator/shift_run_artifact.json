@@ -1,0 +1,27 @@
+{
+  "orchestration_session_id": "SHIFT-MONITOR-2026-Q3-S2",
+  "shift_info": {
+    "shift_number": 2,
+    "handover_from_shift": 1,
+    "active_workers": 12,
+    "monitoring_window_hours": 8
+  },
+  "tiered_storage_metrics": {
+    "tier_1_scratchpad_bytes": 1420,
+    "tier_2_shift_summary_bytes": 3810,
+    "tier_3_raw_log_database_records_filtered": 28540,
+    "sql_prefiltering_reduction_pct": 98.4
+  },
+  "crash_recovery_verification": {
+    "simulated_crash_point": "Turn 14 (Mid-Shift Batch Validation)",
+    "recovery_mechanism": "SQLite WAL checkpoint + state-machine replay",
+    "recovered_shift_id": "SHIFT-MONITOR-2026-Q3-S2",
+    "data_loss_records": 0,
+    "state_parity_verified": true
+  },
+  "forked_investigation": {
+    "fork_id": "INVESTIGATION-BRANCH-ANOMALY-409",
+    "root_cause_identified": "Spike in payload serialization latency on Worker-04",
+    "merge_to_main_session": "Summary absorbed without context bloat"
+  }
+}
