@@ -1,7 +1,7 @@
 # Reflection Brief: Project-Harness Engineering with Claude and Claude Code
 
-**Student Name:** c bharadwaz  
-**Date:** 19-oct-2026  
+**Student Name:** C Bharadwaz  
+**Date:** 30-10-2026 
 
 ---
 
